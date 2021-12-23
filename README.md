@@ -1,5 +1,5 @@
-# UFO-Challenge
-UFO Sightings using JavaScript, html
+# UFO Sigtings -Challenge
+UFO Sightings using JavaScript and html
 
 ## Overview of the Project:
 
@@ -8,8 +8,6 @@ UFO Sightings using JavaScript, html
 The purpose of this project is to visuaize the UFO sigtings data that is available in a JavaScript file.
 - Create an interactive webpage that allows readers to view the UFO sightings data 
 - Filter the data based on datetime
-
-
 
 ### Purpose:
 
@@ -27,12 +25,15 @@ Software: JavaScript (ECMA script or ES 2015 or ES6+), D3.js, html, Visual Studi
 
 ## Results:
 
-Use JavaScript to display data as a table and add filters to manipulate the data.  
+Use JavaScript [app.js](static/js/app.js)to display data as a table and add filters to manipulate the data.  
 
-- Describe to Dana how someone might use the new webpage by walking her through the process of using the search criteria. 
+Description of how someone might use the new webpage - walk-through of using the search criteria:
 
 When the user first visits the web page (index.html), the user is presented with all of the UFO sightings information that is availalble on the data.js JavaScript file.  
-![initialLoad.png](static/images/initialLoad.png)
+
+Initial display of the data:
+
+![initialLoad.PNG](static/images/initialLoad.PNG)
 
 Since there is too much data displayed on the web page to make sense of it, the user can filter the data to see only the data he is interested in.  There are 5 different filters available on the webpage - datetime, city, state, country, shape. Each filter is already pre-filled with a sample text for users to use as an example. 
 
@@ -41,14 +42,19 @@ There are two different ways:
 1) Use one of the available filters (datetime, city, state, country, shape) to filter the data.  
 
 For example if the user filters the data by state (or), then all the data that matches the "or" will be displayed on the web page.
-![filterByState.png](static/images/filterByState.png)
+
+Filter by State:
+
+![filterByState.PNG](static/images/filterByState.PNG)
 
 
 2) Use combination of filters to filter the data.
 
 For example the user can enter the value in the date cell ("1/1/2010) as well as the state cell ("CA). The web page will display all the data that matches these two criteria.
 
-![filterByDateState.png](static/images/filterByDateState.png)
+Filter by Date and State:
+
+![filterByDateState.PNG](static/images/filterByDateState.PNG)
 
 ## Summary:
 
