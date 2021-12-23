@@ -33,7 +33,7 @@ When the user first visits the web page (index.html), the user is presented with
 
 Initial display of the data:
 
-![initialLoad.PNG](static/images/initialLoad.PNG)
+![initialLoad.PNG](static/images/initialLoad.png)
 
 Since there is too much data displayed on the web page to make sense of it, the user can filter the data to see only the data he is interested in.  There are 5 different filters available on the webpage - datetime, city, state, country, shape. Each filter is already pre-filled with a sample text for users to use as an example. 
 
@@ -54,7 +54,7 @@ For example the user can enter the value in the date cell ("1/1/2010) as well as
 
 Filter by Date and State:
 
-![filterByDateState.PNG](static/images/filterByDateState.PNG)
+![filterbyDateState.PNG](static/images/filterbyDateState.PNG)
 
 ## Summary:
 
