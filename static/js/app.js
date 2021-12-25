@@ -69,8 +69,8 @@ function updateFilters() {
    
 
 
-    // for (let i=0; i < (numFilters);i++){
-    //   console.log("inside for loop num " + numFilters + "i = " + i);
+    //for (let i=0; i < (numFilters);i++){
+      // console.log("inside for loop num " + numFilters + "i = " + i);
         
       if (filters["datetime"]){
         filteredData = filteredData.filter(row => row.datetime === filters["datetime"]);
